@@ -1,0 +1,472 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7E428D53190B2D4C007457F6 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7E428D52190B2D4C007457F6 /* Foundation.framework */; };
+		7E428D55190B2D4C007457F6 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7E428D54190B2D4C007457F6 /* CoreGraphics.framework */; };
+		7E428D57190B2D4C007457F6 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7E428D56190B2D4C007457F6 /* UIKit.framework */; };
+		7E428D5D190B2D4C007457F6 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 7E428D5B190B2D4C007457F6 /* InfoPlist.strings */; };
+		7E428D5F190B2D4C007457F6 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E428D5E190B2D4C007457F6 /* main.m */; };
+		7E428D63190B2D4C007457F6 /* JNAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E428D62190B2D4C007457F6 /* JNAppDelegate.m */; };
+		7E428D66190B2D4C007457F6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7E428D64190B2D4C007457F6 /* Main.storyboard */; };
+		7E428D69190B2D4C007457F6 /* JNViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E428D68190B2D4C007457F6 /* JNViewController.m */; };
+		7E428D6B190B2D4C007457F6 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7E428D6A190B2D4C007457F6 /* Images.xcassets */; };
+		7E428D72190B2D4C007457F6 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7E428D71190B2D4C007457F6 /* XCTest.framework */; };
+		7E428D73190B2D4C007457F6 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7E428D52190B2D4C007457F6 /* Foundation.framework */; };
+		7E428D74190B2D4C007457F6 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7E428D56190B2D4C007457F6 /* UIKit.framework */; };
+		7E428D7C190B2D4C007457F6 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 7E428D7A190B2D4C007457F6 /* InfoPlist.strings */; };
+		7E428D7E190B2D4C007457F6 /* JNPullDownTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E428D7D190B2D4C007457F6 /* JNPullDownTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		7E428D75190B2D4C007457F6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7E428D47190B2D4C007457F6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7E428D4E190B2D4C007457F6;
+			remoteInfo = JNPullDown;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		7E428D4F190B2D4C007457F6 /* JNPullDown.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JNPullDown.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		7E428D52190B2D4C007457F6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		7E428D54190B2D4C007457F6 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		7E428D56190B2D4C007457F6 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		7E428D5A190B2D4C007457F6 /* JNPullDown-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "JNPullDown-Info.plist"; sourceTree = "<group>"; };
+		7E428D5C190B2D4C007457F6 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		7E428D5E190B2D4C007457F6 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		7E428D60190B2D4C007457F6 /* JNPullDown-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "JNPullDown-Prefix.pch"; sourceTree = "<group>"; };
+		7E428D61190B2D4C007457F6 /* JNAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JNAppDelegate.h; sourceTree = "<group>"; };
+		7E428D62190B2D4C007457F6 /* JNAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JNAppDelegate.m; sourceTree = "<group>"; };
+		7E428D65190B2D4C007457F6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		7E428D67190B2D4C007457F6 /* JNViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JNViewController.h; sourceTree = "<group>"; };
+		7E428D68190B2D4C007457F6 /* JNViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JNViewController.m; sourceTree = "<group>"; };
+		7E428D6A190B2D4C007457F6 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		7E428D70190B2D4C007457F6 /* JNPullDownTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JNPullDownTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		7E428D71190B2D4C007457F6 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		7E428D79190B2D4C007457F6 /* JNPullDownTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "JNPullDownTests-Info.plist"; sourceTree = "<group>"; };
+		7E428D7B190B2D4C007457F6 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		7E428D7D190B2D4C007457F6 /* JNPullDownTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JNPullDownTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7E428D4C190B2D4C007457F6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7E428D55190B2D4C007457F6 /* CoreGraphics.framework in Frameworks */,
+				7E428D57190B2D4C007457F6 /* UIKit.framework in Frameworks */,
+				7E428D53190B2D4C007457F6 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7E428D6D190B2D4C007457F6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7E428D72190B2D4C007457F6 /* XCTest.framework in Frameworks */,
+				7E428D74190B2D4C007457F6 /* UIKit.framework in Frameworks */,
+				7E428D73190B2D4C007457F6 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7E428D46190B2D4C007457F6 = {
+			isa = PBXGroup;
+			children = (
+				7E428D58190B2D4C007457F6 /* JNPullDown */,
+				7E428D77190B2D4C007457F6 /* JNPullDownTests */,
+				7E428D51190B2D4C007457F6 /* Frameworks */,
+				7E428D50190B2D4C007457F6 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		7E428D50190B2D4C007457F6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7E428D4F190B2D4C007457F6 /* JNPullDown.app */,
+				7E428D70190B2D4C007457F6 /* JNPullDownTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7E428D51190B2D4C007457F6 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7E428D52190B2D4C007457F6 /* Foundation.framework */,
+				7E428D54190B2D4C007457F6 /* CoreGraphics.framework */,
+				7E428D56190B2D4C007457F6 /* UIKit.framework */,
+				7E428D71190B2D4C007457F6 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		7E428D58190B2D4C007457F6 /* JNPullDown */ = {
+			isa = PBXGroup;
+			children = (
+				7E428D61190B2D4C007457F6 /* JNAppDelegate.h */,
+				7E428D62190B2D4C007457F6 /* JNAppDelegate.m */,
+				7E428D64190B2D4C007457F6 /* Main.storyboard */,
+				7E428D67190B2D4C007457F6 /* JNViewController.h */,
+				7E428D68190B2D4C007457F6 /* JNViewController.m */,
+				7E428D6A190B2D4C007457F6 /* Images.xcassets */,
+				7E428D59190B2D4C007457F6 /* Supporting Files */,
+			);
+			path = JNPullDown;
+			sourceTree = "<group>";
+		};
+		7E428D59190B2D4C007457F6 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				7E428D5A190B2D4C007457F6 /* JNPullDown-Info.plist */,
+				7E428D5B190B2D4C007457F6 /* InfoPlist.strings */,
+				7E428D5E190B2D4C007457F6 /* main.m */,
+				7E428D60190B2D4C007457F6 /* JNPullDown-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		7E428D77190B2D4C007457F6 /* JNPullDownTests */ = {
+			isa = PBXGroup;
+			children = (
+				7E428D7D190B2D4C007457F6 /* JNPullDownTests.m */,
+				7E428D78190B2D4C007457F6 /* Supporting Files */,
+			);
+			path = JNPullDownTests;
+			sourceTree = "<group>";
+		};
+		7E428D78190B2D4C007457F6 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				7E428D79190B2D4C007457F6 /* JNPullDownTests-Info.plist */,
+				7E428D7A190B2D4C007457F6 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7E428D4E190B2D4C007457F6 /* JNPullDown */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7E428D81190B2D4C007457F6 /* Build configuration list for PBXNativeTarget "JNPullDown" */;
+			buildPhases = (
+				7E428D4B190B2D4C007457F6 /* Sources */,
+				7E428D4C190B2D4C007457F6 /* Frameworks */,
+				7E428D4D190B2D4C007457F6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = JNPullDown;
+			productName = JNPullDown;
+			productReference = 7E428D4F190B2D4C007457F6 /* JNPullDown.app */;
+			productType = "com.apple.product-type.application";
+		};
+		7E428D6F190B2D4C007457F6 /* JNPullDownTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7E428D84190B2D4C007457F6 /* Build configuration list for PBXNativeTarget "JNPullDownTests" */;
+			buildPhases = (
+				7E428D6C190B2D4C007457F6 /* Sources */,
+				7E428D6D190B2D4C007457F6 /* Frameworks */,
+				7E428D6E190B2D4C007457F6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7E428D76190B2D4C007457F6 /* PBXTargetDependency */,
+			);
+			name = JNPullDownTests;
+			productName = JNPullDownTests;
+			productReference = 7E428D70190B2D4C007457F6 /* JNPullDownTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7E428D47190B2D4C007457F6 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = JN;
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = "___FULLUSERNAME___";
+				TargetAttributes = {
+					7E428D6F190B2D4C007457F6 = {
+						TestTargetID = 7E428D4E190B2D4C007457F6;
+					};
+				};
+			};
+			buildConfigurationList = 7E428D4A190B2D4C007457F6 /* Build configuration list for PBXProject "JNPullDown" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 7E428D46190B2D4C007457F6;
+			productRefGroup = 7E428D50190B2D4C007457F6 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7E428D4E190B2D4C007457F6 /* JNPullDown */,
+				7E428D6F190B2D4C007457F6 /* JNPullDownTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7E428D4D190B2D4C007457F6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7E428D6B190B2D4C007457F6 /* Images.xcassets in Resources */,
+				7E428D5D190B2D4C007457F6 /* InfoPlist.strings in Resources */,
+				7E428D66190B2D4C007457F6 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7E428D6E190B2D4C007457F6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7E428D7C190B2D4C007457F6 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7E428D4B190B2D4C007457F6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7E428D63190B2D4C007457F6 /* JNAppDelegate.m in Sources */,
+				7E428D69190B2D4C007457F6 /* JNViewController.m in Sources */,
+				7E428D5F190B2D4C007457F6 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7E428D6C190B2D4C007457F6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7E428D7E190B2D4C007457F6 /* JNPullDownTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		7E428D76190B2D4C007457F6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7E428D4E190B2D4C007457F6 /* JNPullDown */;
+			targetProxy = 7E428D75190B2D4C007457F6 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		7E428D5B190B2D4C007457F6 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7E428D5C190B2D4C007457F6 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		7E428D64190B2D4C007457F6 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7E428D65190B2D4C007457F6 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		7E428D7A190B2D4C007457F6 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7E428D7B190B2D4C007457F6 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		7E428D7F190B2D4C007457F6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		7E428D80190B2D4C007457F6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		7E428D82190B2D4C007457F6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "JNPullDown/JNPullDown-Prefix.pch";
+				INFOPLIST_FILE = "JNPullDown/JNPullDown-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		7E428D83190B2D4C007457F6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "JNPullDown/JNPullDown-Prefix.pch";
+				INFOPLIST_FILE = "JNPullDown/JNPullDown-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		7E428D85190B2D4C007457F6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/JNPullDown.app/JNPullDown";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "JNPullDown/JNPullDown-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "JNPullDownTests/JNPullDownTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		7E428D86190B2D4C007457F6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/JNPullDown.app/JNPullDown";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "JNPullDown/JNPullDown-Prefix.pch";
+				INFOPLIST_FILE = "JNPullDownTests/JNPullDownTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7E428D4A190B2D4C007457F6 /* Build configuration list for PBXProject "JNPullDown" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7E428D7F190B2D4C007457F6 /* Debug */,
+				7E428D80190B2D4C007457F6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7E428D81190B2D4C007457F6 /* Build configuration list for PBXNativeTarget "JNPullDown" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7E428D82190B2D4C007457F6 /* Debug */,
+				7E428D83190B2D4C007457F6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		7E428D84190B2D4C007457F6 /* Build configuration list for PBXNativeTarget "JNPullDownTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7E428D85190B2D4C007457F6 /* Debug */,
+				7E428D86190B2D4C007457F6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 7E428D47190B2D4C007457F6 /* Project object */;
+}
